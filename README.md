@@ -1,9 +1,9 @@
-LogicPro – AI Browser Study & Coding Assistant
+# LogicPro – AI Browser Study & Coding Assistant
 
 LogicPro is an AI-powered Chrome Extension that helps users understand coding problems, screenshots, and study content directly from any website.
 It provides logic-first explanations and only gives full code when the user explicitly requests it.
 
-🚀 Features
+## 🚀 Features
 
 🧠 Logic-First Explanations – Understand concepts before seeing code
 
@@ -17,7 +17,8 @@ It provides logic-first explanations and only gives full code when the user expl
 
 🔒 On-Demand Code – Code is provided only when user asks
 
-🛠 Tech Stack
+
+## 🛠 Tech Stack
 
 Frontend
 
