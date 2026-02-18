@@ -5,6 +5,7 @@ It provides logic-first explanations and only gives full code when the user expl
 
 ## 🎥 Project Demo
 (The response is slow because I am using the free API)
+Code:https://github.com/Viresh-tarapur/LogicPro/tree/main/extension
 
 
 https://github.com/user-attachments/assets/b1baf578-a68e-4d8c-ab2c-f35958da7e28
