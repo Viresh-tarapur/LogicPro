@@ -1,0 +1,40 @@
+{
+    "manifest_version": 3,
+    "name": "AI Study Assistant",
+    "version": "1.0",
+    "description": "Analyze coding problems and text using local Python backend.",
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "storage",
+        "sidePanel"
+    ],
+    "host_permissions": [
+        "http://localhost:8000/*",
+        "<all_urls>"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_title": "Open AI Assistant"
+    },
+    "side_panel": {
+        "default_path": "sidepanel.html"
+    },
+    "icons": {
+        "16": "icons/unnamed.jpg",
+        "48": "icons/unnamed.jpg",
+        "128": "icons/unnamed.jpg"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}
